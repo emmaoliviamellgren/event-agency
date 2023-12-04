@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Agency</title>
+    <link href="../public/styles.css" rel="stylesheet">
+
+    <!-- Inter font -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <!-- Lobster font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-200 flex flex-wrap justify-between items-center w-full py-6 lg:px-36 xl:px-72 lg:flex-row flex-col text-center">
+        <!-- Nav list -->
+            <!-- SVG icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block m-auto lg:flex lg:m-0 mb-6">
+                <path stroke-linecap="round" stroke-linejoin="round"d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/>
+            </svg>
+            <ul class="flex flex-wrap lg:flex-row flex-col gap-4 items-center">
+            <!-- List items -->
+            <li class="flex font-semibold text-gray-900">
+                <a href="#" class="transition ease-in-out delay-150 font-sans hover:text-blue-600">
+                    Services
+                </a>
+            </li>
+            <li class="flex font-semibold text-gray-900">
+                <a href="pages/about.html" class="transition ease-in-out delay-150 font-sans hover:text-blue-600">
+                    Meet the Team
+                </a>
+            </li>
+            <li class="flex font-semibold text-gray-900 items-center rounded-full bg-blue-50 py-2.5 px-3 text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">
+                <a href="pages/event-form.html" class="font-sans">
+                    Book Event
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </li>
+        </ul>
+    </nav>
+        
+        <!-- Landing section -->
+        <header class="block" style="height:50vh; background-image: linear-gradient(rgba(0, 54, 136, 0.553), rgba(0, 0, 0, 0.2)),url(../mountain-compressed.jpg); background-size: cover; background-position: center;" alt="Landing page image">
+            <div class="relative text-center" style="top:30%;">
+                <div class="text-white text-3xl lg:text-5xl mb-4" style="font-family: 'Lobster', cursive;">Event Travels</div>
+                <div class="text-white text-xl font-medium lg:text-3xl">Where all your dreams come <span class="inline bg-blue-600 p-2 shadow-md">true</span></div>
+            </div>
+        </header>
+
+        <main class="container px-36 lg:mx-auto">
+        
+        <!-- Events section -->
+        <section class="flex h-full justify-center flex-1 py-12 sm:gap-14">
+            <div class="h-full inline-grid gap-6 grid-cols-1 grid-rows-1 lg:grid-cols-3 lg:grid-rows-3 lg:gap-14">
+                <div class="h-full hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Corporate Events" class="lg:aspect-square">
+                    <div class="h-full flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                        <p class="font-bold text-xs">2023 - 2025</p>
+                        <p class="font-semibold text-lg">Corporate Events</p>
+                        <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                        <div class="border-b my-2"></div>
+                        <p class="mb-24 lg:mb-12">Discover our customized experiences especially designed for larger groups.</p>
+                        <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+                <div class="h-full hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Wellness Retreats" class="lg:aspect-square">
+                        <div class="h-full flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                            <p class="font-bold text-xs">2023 - 2025</p>
+                            <p class="font-semibold text-lg">Wellness Retreats</p>
+                            <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                            <div class="border-b my-2"></div>
+                            <p class="mb-12">Discover our wide selection of yoga and meditation retreats.</p>
+                            <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+                <div class="hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Travel and Exploration" class="lg:aspect-square">
+                        <div class="flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                            <p class="font-bold text-xs">2023 - 2025</p>
+                            <p class="font-semibold text-lg">Travel and Exploration</p>
+                            <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                            <div class="border-b my-2"></div>
+                            <p class="mb-12">With our Travel and Exploration package, your next journey will be filled with experiences you won't soon forget.</p>
+                            <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+                <div class="hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Destination Experiences" class="lg:aspect-square">
+                        <div class="flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                            <p class="font-bold text-xs">2023 - 2025</p>
+                            <p class="font-semibold text-lg">Destination Experiences</p>
+                            <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                            <div class="border-b my-2"></div>
+                            <p class="mb-12">Whether it's a Hawaiian luau, a Parisian soirée, or an Arabian Nights-themed party, we will transport you and your guests to your chosen destination - without ever leaving your area.</p>
+                            <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+                <div class="hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Party and Celebration" class="lg:aspect-square">
+                        <div class="flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                            <p class="font-bold text-xs">2023 - 2025</p>
+                            <p class="font-semibold text-lg">Party and Celebration</p>
+                            <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                            <div class="border-b my-2"></div>
+                            <p class="mb-12">We will provide the venue, catering and entertainment so you will be able to fully celebrate the next milestone in your life with the people you hold dearest.</p>
+                            <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+                <div class="hover:scale-105 transform transition ease-in-out border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md">
+                    <img src="https://picsum.photos/400/200" alt="Pop-Up Micro Events" class="lg:aspect-square">
+                        <div class="flex flex-col mx-5 my-5 py-2 leading-6 gap-2">
+                            <p class="font-bold text-xs">2023 - 2025</p>
+                            <p class="font-semibold text-lg">Pop-Up Micro Events</p>
+                            <span class="w-min rounded-md bg-indigo-50 px-2 py-1 text-sm font-medium text-indigo-700 ring-1 ring-inset ring-indigo-700/10">Business</span>
+                            <div class="border-b my-2"></div>
+                            <p class="mb-12">Find your nearest Pop-Up Micro Event, hosted by yours truly.</p>
+                            <div class="absolute bottom-5 left-1/2 transform -translate-x-2/4 text-center w-full"><a href="pages/event-detail.html" class="rounded-full bg-blue-50 py-2.5 px-3 text-sm font-medium text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">Read More...</a></div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

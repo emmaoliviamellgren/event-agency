@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Agency</title>
+    <link href="../../public/styles.css" rel="stylesheet">
+    <!-- Inter font -->
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-200 flex flex-wrap justify-between items-center w-full py-6 lg:px-36 xl:px-72 lg:flex-row flex-col text-center">
+        <!-- Nav list -->
+            <!-- SVG icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 block m-auto lg:flex lg:m-0 mb-6">
+                <path stroke-linecap="round" stroke-linejoin="round"d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z"/>
+            </svg>
+            <ul class="flex flex-wrap lg:flex-row flex-col gap-4 items-center">
+            <!-- List items -->
+            <li class="flex font-semibold text-gray-900">
+                <a href="../index.html" class="transition ease-in-out delay-150 font-sans hover:text-blue-600">
+                    Services
+                </a>
+            </li>
+            <li class="flex font-semibold text-gray-900">
+                <a href="#" class="transition ease-in-out delay-150 font-sans hover:text-blue-600">
+                    Meet the Team
+                </a>
+            </li>
+            <li class="flex font-semibold text-gray-900 items-center rounded-full bg-blue-50 py-2.5 px-3 text-blue-700 ring-1 ring-inset ring-blue-700/10 hover:bg-blue-700 hover:text-white transition ease-in-out">
+                <a href="event-form.html" class="font-sans">
+                    Book Event
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 ml-1.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="container max-w-full">
+
+        <section class="flex flex-col gap-6 pt-20">
+            <div class="w-3/4 lg:w-1/3 mx-auto">
+                <h1 class="font-bold text-4xl lg:text-5xl mb-5">Meet the Team</h1>
+                <div class="block">
+                    <h2 class="text-xl font-bold">What we do</h2>
+                    <p class="mb-5">Hi! We specialize in crafting and executing a wide range of events, from weddings and corporate conferences to music festivals and charity galas.</p>
+                    <h2 class="text-xl font-bold">Why choose us</h2>
+                    <p class="mb-5">With our team of talented professionals, and our passion for attention to detail, innovative concepts, and seamless coordination, we'll make every event a resounding success.</p>
+                    <h2 class="text-xl font-bold">Get in touch</h2>
+                    <p class="mb-5">Come in contact with us and see what we can do for you!</p>
+                </div>
+            </div>
+
+            <!-- VD section -->
+            <div class="bg-gray-200 py-8">
+                <div class="flex justify-around w-3/4 lg:w-1/3 mx-auto">
+                    <div>
+                        <img src="../../ceo.jpg" alt="Image of CEO" class="shadow-md shadow-black lg:aspect-square h-72 rounded-full">
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold mb-2">Lisa Jonsson</h2>
+                        <h2 class="text-xl font-bold mb-2 bg-blue-600 text-white w-min p-2">CEO</h2>
+                        <p class="font-bold mt-6">Call me at</p>
+                        <div class="font-medium text-blue-600"><a href="tel:0730700022">0730700022</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="inline-block mb-0.5 w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg></div>
+                        <p class="font-bold mt-4">Email me at</p>
+                        <div class="font-medium text-blue-600"><a href="mailto:lisajonsson@gmail.com">lisajonsson@gmail.com</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="inline-block mb-0.5 w-4 h-4">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" /></svg></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team section -->
+            <div class="block">
+                <div style="height:500px; background-image: url('../../teammeeting.jpg'); background-size: cover; background-position: center;"></div>
+            </div>
+
+            <!-- Form -->
+            <form class="w-3/4 lg:w-1/3 mx-auto mb-6 border-solid rounded-md border border-gray-300 bg-gray-100 shadow-md p-10">
+                <h2 class="text-xl font-bold pb-6">We'd love to hear from you!</h2>
+                <div class="border-b border-gray-900/10 pb-12">
+                <div class="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+        
+                <!-- Namn -->
+                <div class="col-span-full">
+                    <label for="first-name" class="block text-sm font-medium text-gray-900">Name</label>
+                    <div class="mt-2">
+                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+        
+                <!-- Datum -->
+                <div class="col-span-full">
+                    <label for="date" class="block text-sm font-medium text-gray-900">Email adress</label>
+                    <div class="mt-2">
+                    <input type="text" name="date" id="date" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    </div>
+                </div>
+        
+                <!-- Kort beskrivning -->
+                <div class="col-span-full">
+                    <label for="about" class="block text-sm font-medium text-gray-900">Your message</label>
+                    <div class="mt-2">
+                        <textarea id="about" name="about" rows="3" class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+        
+                <!-- Submit-knapp -->
+                <div class="mt-6 flex items-center justify-end gap-x-6">
+                    <button type="submit" class="rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
